@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Chapala Sriram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-full">My Portfolio</span>
+            </a>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>About <span class="gradient-text">Me</span></h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <span>About</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="images/img.jpg" alt="Chapala Sreeram">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2>Who is <span class="gradient-text">Chapala Sriram?</span></h2>
+                    <p class="lead">
+                        A Computer Science Engineering student focused on Full Stack Development, Cloud Deployment, and AI-driven systems. Passionate about building scalable applications and solving real-world problems through technology.
+                    </p>
+                    
+                    <div class="about-tabs">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" data-tab="experience">Experience</button>
+                            <button class="tab-btn" data-tab="education">Education</button>
+                            <button class="tab-btn" data-tab="achievements">Achievements</button>
+                        </div>
+                        
+                        <div class="tab-content active" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-date">2026 - Present</div>
+                                    <div class="timeline-content">
+                                        <h3>Full Stack Developer (Projects)</h3>
+                                        <p>AI Resume Analyzer – MERN + AWS</p>
+                                        <p class="timeline-desc">Designed and deployed a cloud-based resume analysis system using React, Node.js, MongoDB, and AWS EC2.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-date">2026</div>
+                                    <div class="timeline-content">
+                                        <h3>Machine Learning Developer</h3>
+                                        <p>HydroForecast Water Intelligence System</p>
+                                        <p class="timeline-desc">Built a high-accuracy water potability classification model using CatBoost and ensemble techniques.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-date">2025 - 2026</div>
+                                    <div class="timeline-content">
+                                        <h3>Research Contributor</h3>
+                                        <p>IEEE Paper – Acoustic Profiling</p>
+                                        <p class="timeline-desc">Developed a LightGBM-based framework for marine biodiversity classification using acoustic signal analysis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                      <!--Education-->
+                     <div class="tab-content" id="education">
+                      <div class="timeline">
+                          <div class="timeline-item">
+                              <div class="timeline-dot"></div>
+                              <div class="timeline-date">2023 - 2027</div>
+                              <div class="timeline-content">
+                                  <h3>B.Tech in Computer Science Engineering</h3>
+                                  <p>SRM Institute of Science and Technology, Chennai</p>
+                                  <p class="timeline-desc">CGPA: 9.61/10 | Focus on Data Structures, AI, Cloud Computing, and Full Stack Development.</p>
+                              </div>
+                          </div>
+
+                          <div class="timeline-item">
+                              <div class="timeline-dot"></div>
+                              <div class="timeline-date">2021 - 2023</div>
+                              <div class="timeline-content">
+                                  <h3>Intermediate (MPC)</h3>
+                                  <p>State Board of Andhra Pradesh</p>
+                                  <p class="timeline-desc">Score: 962/1000 | Strong foundation in Mathematics and Computer Science.</p>
+                              </div>
+                          </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-date">2020 - 2021</div>
+                                    <div class="timeline-content">
+                                        <h3>Secondary School (10th Grade)</h3>
+                                        <p>Narayana EM School</p>
+                                        <p class="timeline-desc">Score: 597/600 | Academic Excellence.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content" id="achievements">
+                          <div class="achievements-grid">
+
+                              <div class="achievement-card">
+                                  <i class="fas fa-certificate"></i>
+                                  <h4>Oracle Certified Foundations Associate</h4>
+                                  <p>Oracle Cloud Infrastructure 2025 – AI Foundations</p>
+                              </div>
+
+                              <div class="achievement-card">
+                                  <i class="fas fa-cloud"></i>
+                                  <h4>IBM Cloud Essentials</h4>
+                                  <p>Industry-recognized Cloud Certification</p>
+                              </div>
+
+                              <div class="achievement-card">
+                                  <i class="fas fa-award"></i>
+                                  <h4>IEEE Research Publication</h4>
+                                  <p>Acoustic Profiling using LightGBM Framework</p>
+                              </div>
+
+                              <div class="achievement-card">
+                                  <i class="fas fa-brain"></i>
+                                  <h4>High Academic Performance</h4>
+                                  <p>CGPA 9.61 | Consistent Academic Excellence</p>
+                              </div>
+
+                              <div class="achievement-card">
+                                  <i class="fas fa-code"></i>
+                                  <h4>AI System Development</h4>
+                                  <p>HydroForecast & AI Resume Analyzer</p>
+                              </div>
+
+                              <div class="achievement-card">
+                                  <i class="fas fa-laptop-code"></i>
+                                  <h4>DSA & Placement Preparation</h4>
+                                  <p>Consistent Problem Solving & Technical Growth</p>
+                              </div>
+
+                          </div>
+                      </div>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-label">Full Name</span>
+                            <span class="info-value">Chapala Sriram</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location</span>
+                            <span class="info-value">Tirupati, India</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email</span>
+                            <span class="info-value">ramsr0099@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Role</span>
+                            <span class="info-value">Full Stack & ML Developer</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Cloud</span>
+                            <span class="info-value">AWS (EC2, S3, IAM)</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Availability</span>
+                            <span class="info-value">Open to Internships & Placements</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                        <a href="contact.html" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i>
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Chapala Sriram</h3>
+                    <p>Full Stack Developer | MERN | AWS | AI</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Sreeram0829"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sriram-c-01392830b/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Chapala Sriram. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
