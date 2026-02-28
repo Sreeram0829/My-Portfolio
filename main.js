@@ -322,7 +322,7 @@ window.addEventListener('load', () => {
 const footerYear = document.querySelector('.footer-bottom p');
 if (footerYear) {
     const currentYear = new Date().getFullYear();
-    footerYear.innerHTML = `&copy; ${currentYear} Gandi Darshini. All rights reserved.`;
+    footerYear.innerHTML = `&copy; ${currentYear} Chapala Sriram. All rights reserved.`;
 }
 
 // ========== PARALLAX EFFECT ==========
